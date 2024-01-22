@@ -52,20 +52,13 @@ try:
         user_bot = data['user_bot']
         id_bot = data['id_bot']
 except FileNotFoundError:
-    api_id = int(input(A+"❖ Inter Your App ID ➜  "+X))
-    print(' 25281175 ')
-    api_hash = input(A+"❖ Inter Your App HASH ➜  "+X)
-    print(' 6d99cb2b60a2c519fc1f99bd19565730 ')
-    bot_token = input(A+"❖ Inter Your Token ➜  "+X)
-    print(' 6635986173:AAEBuYxPVay10-qYXqrIlXj7Fyr8syQK7jM ')
-    DEVLOO = input(A+"❖ Inter Id Off Controller Account ➜  "+X)
-    print(' 6581896306 ')
-    MAX_ACCOUNTS = int(input(A+"❖ Inter Num Of Max Acc ➜  "+X))
-    print(' 300 ')
-    user_bot = input(A+"❖ Inter Your user bot ➜  "+X)
-    print(' ee0obot ')
-    id_bot = int(input(A+"❖ Inter id bot ➜  "+X))
-    print(' 6635986173 ')
+    api_id = '25281175'
+    api_hash = '6d99cb2b60a2c519fc1f99bd19565730'
+    bot_token = '6635986173:AAEBuYxPVay10-qYXqrIlXj7Fyr8syQK7jM'
+    DEVLOO = '6581896306'
+    MAX_ACCOUNTS = '30'
+    user_bot = 'ee0obot'
+    id_bot = '6635986173'
     
     data = {
         'api_id': api_id,

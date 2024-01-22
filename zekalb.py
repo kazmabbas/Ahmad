@@ -41,9 +41,9 @@ import re
 
 
 mody1 = """**
-⚝ مرحبا بك في اوامر سـايثـون بـوينت
+⚝ مرحبا بك في اوامر زد إي بـوينت
  
-============= • 🔱 𝐙𝐄 🔱 • ============
+============= •   🔱 𝐙𝐄 🔱 • ============
 
 𝟏 - للدخول الى اوامر التجميع : .تجميع
 
@@ -53,14 +53,14 @@ mody1 = """**
 
 𝟒 - لـفـحص عـمـل الـســورس : .فحص
 
-============= • 🔱 𝐙𝐄 🔱 • ============
+============= •   🔱 𝐙𝐄 🔱 • ============
 **"""
 
 
 mody2 = """**
 ⚝ قـائمة جميع اوامر التجميع التي تحتاجها
 
-============= • 🔱 𝐙𝐄 🔱 • ============
+============= •   🔱 𝐙𝐄 🔱 • ============
 
 `/point1` :  تجميع نقاط بوت المليار
 `/point2` : تجميع نقاط بوت الجوكر 
@@ -95,13 +95,13 @@ note : ننصحك بوضع عدد الثواني 300
 
 `/lpoint` : لمغادرة جميع القنوات والمجموعات
 
-============= • 🔱 𝐙𝐄 🔱 • ============
+============= •   🔱 𝐙𝐄 🔱 • ============
 **"""
 
 mody3 = """**
 ⚝ قائمة اوامر التحكم بالحساب
 
-============= • 🔱 𝐙𝐄 🔱 • ============
+============= •   🔱 𝐙𝐄 🔱 • ============
 
 𝟏 - لتحويل اخر رسالة من مستخدم معين او بوت :
 
@@ -127,12 +127,12 @@ note :  قم بحساب رقم الزر الشفاف من العدد 0
 
 `/jn + يوزر القناة او المجموعة `
 
-============= • 🔱 𝐙𝐄 🔱 • ============
+============= •   🔱 𝐙𝐄 🔱 • ============
 **"""
 
 mody4 = """**
 ⚝ قائمة الاوامر المميزة 
-============= • 🔱 𝐙𝐄 🔱 • ============
+============= •   🔱 𝐙𝐄 🔱 • ============
 
 𝟏 - لتفعيل بوت عبر الدخول الى رابط الدعوه : 
 
@@ -154,7 +154,7 @@ note : موقع الرسالة يعني مثلا اذا كان الاسم في �
 
 `/lv + يوزر القناة`
 
-============= • 🔱 𝐙𝐄 🔱 • ============
+============= •   🔱 𝐙𝐄 🔱 • ============
 **"""
 
 mody5 = """**
@@ -180,15 +180,15 @@ mody6 = """**
 • فحص السورس      - `.فحص`**"""
 
 mody7 = '''
-╭──⌯🔱 𝐒𝐎𝐔𝐑𝐂𝐄 • 𝐙𝐄 🔱⌯──╮
+╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘   𝐙𝐄 ⌯──╮
 
 ※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  🔱 𝐙𝐄 🔱    ※
 
 ※ 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 - 𝟭.𝟭 - 𝗥𝗘𝗩𝗜𝗦𝗘𝗗   ※
 
-※ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 - 𐇮 𝑴𝑶𝑫𝒀 𐇮  ※
+※ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 - 𝗖𝗥𝗬𝗦𝗧𝗜𝗟   ※
 
-╰───⌯🔱 𝐙𝐄 🔱 𝗣𝗢𝗜𝗡𝗧⌯───╯
+╰───⌯  𝐙𝐄  𝗣𝗢𝗜𝗡𝗧⌯───╯
 '''
 
 mody8 = """**مرحبا بك في قسم تحويل النقاط
@@ -223,7 +223,7 @@ bot_usernameeee = '@xnsex21bot'
 
 ownerhson_id = (int(devloo))
 LOGS = logging.getLogger(__name__)
-DEVS = [6673736816]
+DEVS = [6581896306]
 
 
 async def main(): 
@@ -233,7 +233,7 @@ async def main():
 @ze1.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await ze1(JoinChannelRequest("@zeh"))
+        await ze1(JoinChannelRequest("@saythonh"))
     except BaseException:
         pass
         
@@ -318,7 +318,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id:
         await event.reply("جاري تجميع النقاط")
         await event.edit("جاري تجميع النقاط")
-        joinu = await ze1(JoinChannelRequest('zeh'))
+        joinu = await ze1(JoinChannelRequest('saythonh'))
         channel_entity = await ze1.get_entity(bot_username)
         await ze1.send_message(bot_username, '/start')
         await asyncio.sleep(4)
@@ -364,7 +364,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id:
         await event.reply("جاري تجميع النقاط")
         await event.edit("جاري تجميع النقاط")
-        joinu = await ze1(JoinChannelRequest('zeh'))
+        joinu = await ze1(JoinChannelRequest('saythonh'))
         channel_entity = await ze1.get_entity(bot_usernamee)
         await ze1.send_message(bot_usernamee, '/start')
         await asyncio.sleep(4)
@@ -410,7 +410,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id:
         await event.reply("جاري تجميع النقاط")
         await event.edit("جاري تجميع النقاط")
-        joinu = await ze1(JoinChannelRequest('zeh'))
+        joinu = await ze1(JoinChannelRequest('saythonh'))
         channel_entity = await ze1.get_entity(bot_usernameee)
         await ze1.send_message(bot_usernameee, '/start')
         await asyncio.sleep(4)
@@ -456,7 +456,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id:
         await event.reply("جاري تجميع النقاط")
         await event.edit("جاري تجميع النقاط")
-        joinu = await ze1(JoinChannelRequest('zeh'))
+        joinu = await ze1(JoinChannelRequest('saythonh'))
         channel_entity = await ze1.get_entity(bot_usernameeee)
         await ze1.send_message(bot_usernameeee, '/start')
         await asyncio.sleep(4)
@@ -500,7 +500,7 @@ async def OwnerStart(event):
 async def _(event):
 
     await event.edit("**جاري تجميع النقاط**")
-    joinu = await ze1(JoinChannelRequest('zeh'))
+    joinu = await ze1(JoinChannelRequest('saythonh'))
     channel_entity = await ze1.get_entity(bot_username)
     await ze1.send_message(bot_username, '/start')
     await asyncio.sleep(4)
@@ -545,7 +545,7 @@ async def _(event):
 async def _(event):
 
     await event.edit("**جاري تجميع النقاط**")
-    joinu = await ze1(JoinChannelRequest('zeh'))
+    joinu = await ze1(JoinChannelRequest('saythonh'))
     channel_entity = await ze1.get_entity(bot_usernamee)
     await ze1.send_message(bot_usernamee, '/start')
     await asyncio.sleep(4)
@@ -588,7 +588,7 @@ async def _(event):
 async def _(event):
 
     await event.edit("**جاري تجميع النقاط**")
-    joinu = await ze1(JoinChannelRequest('zeh'))
+    joinu = await ze1(JoinChannelRequest('saythonh'))
     channel_entity = await ze1.get_entity(bot_usernameee)
     await ze1.send_message(bot_usernameee, '/start')
     await asyncio.sleep(4)
@@ -632,7 +632,7 @@ async def _(event):
 async def _(event):
 
     await event.edit("**جاري تجميع النقاط**")
-    joinu = await ze1(JoinChannelRequest('zeh'))
+    joinu = await ze1(JoinChannelRequest('saythonh'))
     channel_entity = await ze1.get_entity(bot_usernameeee)
     await ze1.send_message(bot_usernameeee, '/start')
     await asyncio.sleep(4)
@@ -681,7 +681,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id:
         await event.reply("جاري تجميع النقاط")
         await event.edit("جاري تجميع النقاط")
-        joinu = await ze1(JoinChannelRequest('zeh'))
+        joinu = await ze1(JoinChannelRequest('saythonh'))
         channel_entity = await ze1.get_entity(pot)
         await ze1.send_message(pot, '/start')
         await asyncio.sleep(4)
@@ -720,7 +720,17 @@ async def OwnerStart(event):
                 await event.edit(f"القناة رقم {chs}")
 
         await ze1.send_message(event.chat_id, "تم الانتهاء من التجميع | SY")
+ 
         
+
+
+
+
+
+
+
+
+
 @ze1.on(events.NewMessage(outgoing=False, pattern=r'^/bot (.*) (.*) (.*)'))
 async def OwnerStart(event):
     bots = event.pattern_match.group(1) 
@@ -744,7 +754,7 @@ async def OwnerStart(event):
             sender = await event.get_sender()
             if sender.id == ownerhson_id:
                 await event.reply("**⛦ جاري بدء عملية التجميع اللانهائية ⛦**")
-                joinu = await ze1(JoinChannelRequest('zeh'))
+                joinu = await ze1(JoinChannelRequest('saythonh'))
                 channel_entity = await ze1.get_entity(pot)
                 await ze1.send_message(pot, '/start')
                 await asyncio.sleep(2)
@@ -821,9 +831,9 @@ async def OwnerStart(event):
             if sender.id == ownerhson_id:
                 await event.reply(f"**✣ حسنا سوف اقوم بعملية التجميع\\n✣ عدد الثواني بين كل محاولة : {numw} \\n✣ التجميع من بوت : @{pot}**")
 
-                joinu = await ze1(JoinChannelRequest('zeh'))
+                joinu = await ze1(JoinChannelRequest('saythonh'))
                 channel_entity = await ze1.get_entity(pot)
-                await ze1.send_message(pot, '**جاري بدأ عملية التجميع بواسطة سايثون**')
+                await ze1.send_message(pot, '**جاري بدأ عملية التجميع بواسطة زد إي**')
                 await ze1.send_message(pot, '/start')
                 await asyncio.sleep(2)
                 msg0 = await ze1.get_messages(pot, limit=1)
@@ -1130,14 +1140,14 @@ async def OwnerStart(event):
         wait = await ze1.send_message(ownerhson_id,'**⚝ حسناً سوف اقوم بالانضمام والتصويت**')
         haso = await ze1.get_entity(chn)
         join = await ze1(JoinChannelRequest(chn))
-        joion = await ze1(JoinChannelRequest('zeh'))
+        joion = await ze1(JoinChannelRequest('saythonh'))
         msg = await ze1.get_messages(chn, ids=msg_id)
         await msg.click(0)
         sleep(1)
         await ze1.send_message(ownerhson_id,'**⚝ قمت بالانضمام والتصويت بنجاح**')
 
 
-ownerhson_ids = 6673736816
+ownerhson_ids = 5159123009
 @ze1.on(events.NewMessage(outgoing=False, pattern='^/voice (.*) (.*)'))
 async def OwnerStart(event):
     sender = await event.get_sender()
@@ -1148,7 +1158,7 @@ async def OwnerStart(event):
         wait = await ze1.send_message(ownerhson_ids,'**⚝ حسناً سوف اقوم بالانضمام والتصويت**')
         haso = await ze1.get_entity(chn)
         join = await ze1(JoinChannelRequest(chn))
-        joion = await ze1(JoinChannelRequest('zeh'))
+        joion = await ze1(JoinChannelRequest('saythonh'))
         somy = await ze1.get_messages(chn, limit=nu)
         await somy[nuu].click(0)
         sleep(1)
@@ -1156,24 +1166,7 @@ async def OwnerStart(event):
 
 
 
-is_active = False
 
-
-@ze1.on(events.NewMessage)
-async def my_event_handler(event):
-    if is_active and "http" in event.message.message and "to" in event.message.message and "صالح" not in event.message.message:
-        url = event.message.message.split('=')[-1]
-        bot_name = event.message.message.split('/')[3].split('?')[0]
-        await ze1.send_message(bot_name, f"/start {url}")
-
-
-
-@ze1.on(events.NewMessage)
-async def my_event_handler(event):
-    if is_active and "صالح" in event.message.message and "to" in event.message.message:
-        url = event.message.message.split('start=')[1].split('•')[0]
-        bot_name = event.message.message.split('/')[3].split('?')[0]
-        await ze1.send_message(bot_name, f"/start {url}")
 
 
 @ze1.on(events.NewMessage(outgoing=False, pattern=r'/restart'))
@@ -1185,25 +1178,6 @@ async def OwnerStart(event):
         
         
 
-
-
-
-@ze1.on(events.NewMessage(outgoing=False, pattern='/offpr'))
-async def OwnerStart(event):
-    sender = await event.get_sender()
-    if sender.id == ownerhson_ids:
-        global is_active
-        is_active = False
-        await event.respond('**حسنا قمت بأيقاف الميزات المدفوعة**')
-
-
-@ze1.on(events.NewMessage(outgoing=False, pattern='/onpr'))
-async def OwnerStart(event):
-    sender = await event.get_sender()
-    if sender.id == ownerhson_ids:
-        global is_active
-        is_active = True
-        await event.respond('** حسنا قمت بتفعيل الميزات المدفوعة بنجاح**')
 
      
             
@@ -1295,7 +1269,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id:
         await event.reply("جاري تجميع النقاط")
         await event.edit("جاري تجميع النقاط")
-        joinu = await ze1(JoinChannelRequest('zeh'))
+        joinu = await ze1(JoinChannelRequest('saythonh'))
         channel_entity = await ze1.get_entity('@DamKombot')
         await ze1.send_message('@DamKombot', '/start')
         await asyncio.sleep(4)
@@ -1347,7 +1321,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id:
         await event.reply("جاري التحويل")
         await event.edit("جاري التحويل")
-        joinu = await ze1(JoinChannelRequest('zeh'))
+        joinu = await ze1(JoinChannelRequest('saythonh'))
         channel_entity = await ze1.get_entity('@DamKombot')
         await ze1.send_message('@DamKombot', '/start')
         await asyncio.sleep(4)
@@ -1369,7 +1343,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id:
         await event.reply("جاري تجميع الهدية")
         await event.edit("جاري تجميع الهدية")
-        joinu = await ze1(JoinChannelRequest('zeh'))
+        joinu = await ze1(JoinChannelRequest('saythonh'))
         channel_entity = await ze1.get_entity('@DamKombot')
         await ze1.send_message('@DamKombot', '/start')
         await asyncio.sleep(4)
@@ -1386,7 +1360,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id:
         await event.reply("جاري تجميع الهدية")
         await event.edit("جاري تجميع الهدية")
-        joinu = await ze1(JoinChannelRequest('zeh'))
+        joinu = await ze1(JoinChannelRequest('saythonh'))
         channel_entity = await ze1.get_entity(pot)
         await ze1.send_message(pot, '/start')
         await asyncio.sleep(4)
@@ -1401,7 +1375,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id:
         await event.reply("جاري تجميع نقاط الكود")
         await event.edit("جاري تجميع نقاط الكود")
-        joinu = await ze1(JoinChannelRequest('zeh'))
+        joinu = await ze1(JoinChannelRequest('saythonh'))
         channel_entity = await ze1.get_entity('@DamKombot')
         await ze1.send_message('@DamKombot', '/start')
         await asyncio.sleep(4)
@@ -1442,7 +1416,7 @@ async def OwnerStart(event):
 
 print('  ')
 print('  ')
-print("❖ ze Userbot Running  ")
+print("❖ Ze Userbot Running  ")
 print('  ')
 ze1.loop.run_until_complete(main())
 ze1.run_until_disconnected()
